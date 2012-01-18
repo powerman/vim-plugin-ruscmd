@@ -1,6 +1,6 @@
 " Maintainer: Alex Efros <powerman-asdf@ya.ru>
-" Version: 1.2
-" Last Modified: Jan 17, 2012
+" Version: 1.3
+" Last Modified: Jan 18, 2012
 " License: This file is placed in the public domain.
 " URL: http://www.vim.org/scripts/script.php?script_id=3885
 " Description: Support command mode in Russian keyboard layout (Unicode)
@@ -12,12 +12,12 @@ let g:loaded_ruscmd = 1
 
 
 if !exists('g:no_plugin_abbrev') && !exists('g:no_ruscmd_abbrev')
-	cabbrev <expr> ив	getcmdline()=="ив"	? "bd"	: "ив"
-	cabbrev <expr> ит	getcmdline()=="ит"	? "bn"	: "ит"
-	cabbrev <expr> й	getcmdline()=="й"	? "q"	: "й"
-	cabbrev <expr> йф	getcmdline()=="йф"	? "qa"	: "йф"
-	cabbrev <expr> ц	getcmdline()=="ц"	? "w"	: "ц"
-	cabbrev <expr> цй	getcmdline()=="цй"	? "wq"	: "цй"
+	cabbrev <expr> ив	getcmdtype()==':' && getcmdline()=="ив"	? "bd"	: "ив"
+	cabbrev <expr> ит	getcmdtype()==':' && getcmdline()=="ит"	? "bn"	: "ит"
+	cabbrev <expr> й	getcmdtype()==':' && getcmdline()=="й"	? "q"	: "й"
+	cabbrev <expr> йф	getcmdtype()==':' && getcmdline()=="йф"	? "qa"	: "йф"
+	cabbrev <expr> ц	getcmdtype()==':' && getcmdline()=="ц"	? "w"	: "ц"
+	cabbrev <expr> цй	getcmdtype()==':' && getcmdline()=="цй"	? "wq"	: "цй"
 endif
 
 if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
