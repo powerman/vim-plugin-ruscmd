@@ -1,0 +1,15 @@
+ruscmd
+======
+
+== Repositories
+
+- Main (Mercurial) at http://code.google.com/p/vim-plugin-ruscmd/
+- Mirror (Git) at https://github.com/powerman/vim-plugin-ruscmd
+
+== Description
+
+This plugin will let you enter command mode (NORMAL) commands using Russian keyboard layout. Also it will let you enter few most used commands in command line mode in safe way (only full commands translated). This is usually enough to avoid switching between Russian and English layouts just to control Vim.
+
+Works only with Unicode.
+
+Download .zip/.vmb from http://www.vim.org/scripts/script.php?script_id=3885
