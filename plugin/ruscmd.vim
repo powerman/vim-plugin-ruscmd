@@ -22,6 +22,7 @@ endif
 
 if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> ё `
+	map <unique> ’ `
 	map <unique> й q
 	map <unique> ц w
 	map <unique> у e
@@ -34,8 +35,10 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> з p
 	map <unique> х [
 	map <unique> ъ ]
+	map <unique> ї ]
 	map <unique> ф a
 	map <unique> ы s
+	map <unique> і s
 	map <unique> в d
 	map <unique> а f
 	map <unique> п g
@@ -45,6 +48,7 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> д l
 	map <unique> ж ;
 	map <unique> э '
+	map <unique> є '
 	map <unique> я z
 	map <unique> ч x
 	map <unique> с c
@@ -55,6 +59,7 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> б ,
 	map <unique> ю .
 	map <unique> Ё ~
+	map <unique> ' ~
 	map <unique> Й Q
 	map <unique> Ц W
 	map <unique> У E
@@ -67,8 +72,10 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> З P
 	map <unique> Х {
 	map <unique> Ъ }
+	map <unique> Ї }
 	map <unique> Ф A
 	map <unique> Ы S
+	map <unique> І S
 	map <unique> В D
 	map <unique> А F
 	map <unique> П G
@@ -78,6 +85,7 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> Д L
 	map <unique> Ж :
 	map <unique> Э "
+	map <unique> Є "
 	map <unique> Я Z
 	map <unique> Ч X
 	map <unique> С C
