@@ -59,7 +59,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> б ,
 	map <unique> ю .
 	map <unique> Ё ~
-	map <unique> ' ~
 	map <unique> Й Q
 	map <unique> Ц W
 	map <unique> У E
