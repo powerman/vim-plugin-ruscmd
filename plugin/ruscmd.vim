@@ -12,12 +12,13 @@ let g:loaded_ruscmd = 1
 
 
 if !exists('g:no_plugin_abbrev') && !exists('g:no_ruscmd_abbrev')
-	cabbrev <expr> ив	getcmdtype()==':' && getcmdline()=="ив"	? "bd"	: "ив"
-	cabbrev <expr> ит	getcmdtype()==':' && getcmdline()=="ит"	? "bn"	: "ит"
-	cabbrev <expr> й	getcmdtype()==':' && getcmdline()=="й"	? "q"	: "й"
-	cabbrev <expr> йф	getcmdtype()==':' && getcmdline()=="йф"	? "qa"	: "йф"
-	cabbrev <expr> ц	getcmdtype()==':' && getcmdline()=="ц"	? "w"	: "ц"
-	cabbrev <expr> цй	getcmdtype()==':' && getcmdline()=="цй"	? "wq"	: "цй"
+	cabbrev <expr> ив	getcmdtype()==':' && getcmdline()=="ив"	 ? "bd"	 : "ив"
+	cabbrev <expr> ит	getcmdtype()==':' && getcmdline()=="ит"	 ? "bn"	 : "ит"
+	cabbrev <expr> й	getcmdtype()==':' && getcmdline()=="й"	 ? "q"	 : "й"
+	cabbrev <expr> йф	getcmdtype()==':' && getcmdline()=="йф"	 ? "qa"	 : "йф"
+	cabbrev <expr> ц	getcmdtype()==':' && getcmdline()=="ц"	 ? "w"	 : "ц"
+	cabbrev <expr> цй	getcmdtype()==':' && getcmdline()=="цй"	 ? "wq"	 : "цй"
+	cabbrev <expr> цйф	getcmdtype()==':' && getcmdline()=="цйф" ? "wqa" : "цйф"
 endif
 
 if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
